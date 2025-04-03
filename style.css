@@ -11,6 +11,7 @@ body{
 #full {
     place-items: center;
     display: block;
+
     
 }
 #topo{
@@ -26,6 +27,7 @@ font-size: medium;
 p{
     margin: 7px;
     color: white;
+    
 }
 
 
@@ -43,10 +45,11 @@ p{
     border-bottom-right-radius: 25px;
     height: 450px;
     width: 500px;
-  
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #nome-de-usuario{
   font-size: medium;
+  
 
   
 }
@@ -54,6 +57,7 @@ p{
 #senha{
     font-size: medium;
     margin-top: 30px;
+    
 }
 
 #lembra-me{
@@ -74,6 +78,7 @@ border-radius: 100px;
 width: 430px;
 height: 59px;
 font-size: large;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #username{
@@ -83,7 +88,8 @@ font-size: large;
     height: 51.7px; 
     text-indent: 10px;/*da espaço do texto para o botão*/
     font-size: large;
-
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #password{
@@ -93,6 +99,8 @@ font-size: large;
     height: 51.7px;
     text-indent: 10px;/*da espaço do texto para o botão*/
     font-size: large;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
     }
 
   
@@ -112,14 +120,19 @@ display: flex;
 }
 #ce{
     color: rgb(77, 77, 239);
+  
 }
 
 #logosite{
     display:inline;
-   
+    
     
 }
 #topimg{
 margin-left: -450px;
 padding-right: 150px;
+}
+
+a {
+    text-decoration: none;
 }

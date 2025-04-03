@@ -6,6 +6,7 @@ body{
     height: 100vh;/*body ocupa toda tela*/
     justify-content: center;
     align-items: center;
+    background: no-repeat;
  
 }
 #full {
